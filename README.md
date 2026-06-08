@@ -37,7 +37,7 @@ gcloud auth application-default print-access-token
 
 ## 3.1 Enable services - VERY IMPORTANT STEP
 ```powershell
-gcloud enable services cloudtrace.googleapis.com aiplatform.googleapis.com --project=<your_project_id>
+gcloud services enable cloudtrace.googleapis.com aiplatform.googleapis.com --project=<your_project_id>
 ```
 
 
